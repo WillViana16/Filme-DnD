@@ -1,5 +1,18 @@
-$bgColor:red;
+@use 'reset';
+@use 'variaveis';
+@use 'hero';
+@use 'header';
+@use 'sinopse';
+@use 'elenco';
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 body {
-    background-color: $bgColor;
+    background-color: variaveis.$bgColor;
 }
+

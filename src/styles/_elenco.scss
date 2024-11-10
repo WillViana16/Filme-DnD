@@ -1,0 +1,22 @@
+.casting-actor {
+    padding: 8px;
+
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        
+
+        &__items {
+        h3 {
+            font-size:1.5em ;
+        }
+
+        img {
+            max-width: 150px;
+            border-radius: 15px;
+        }
+    }
+}
+}
