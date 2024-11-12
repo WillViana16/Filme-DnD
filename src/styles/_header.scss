@@ -1,11 +1,32 @@
-
-.header_img {
-    max-width: 120px;
-}
+@use 'variaveis';
 
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    transition: background-color .5s ease;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 0px;
+    
+    &__img {
+            max-width: 120px;
+        }
+    
+    &__button {
+            height: 50px;
+            background-color:variaveis.$btnColor;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            font-size: 18px;
+            color: variaveis.$fontColor;
+            border-radius: 4px;
+            text-decoration: none;
+            padding: 8px 14px;
+    }
 }

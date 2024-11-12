@@ -1,0 +1,38 @@
+@use 'variaveis';
+
+.gd-images{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &__title {
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 2.5em;
+        text-align: center;
+
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap:24px;
+        
+
+        &__items {
+            text-align: center;
+            margin: 0 auto;
+            
+            
+            img {
+                max-width: 100%;
+                border-radius: 6px;
+            }
+
+            h3 {
+                font-size: 1.5em;
+            }
+        }
+    }
+
+}

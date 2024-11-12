@@ -4,6 +4,8 @@
 @use 'header';
 @use 'sinopse';
 @use 'elenco';
+@use 'direction';
+@use 'images';
 
 .container {
     max-width: 1240px;
@@ -15,4 +17,3 @@
 body {
     background-color: variaveis.$bgColor;
 }
-
