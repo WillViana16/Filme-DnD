@@ -3,14 +3,20 @@
 @use 'hero';
 @use 'header';
 @use 'sinopse';
-@use 'elenco';
+@use 'castingactor';
 @use 'direction';
 @use 'images';
+@use 'footer';
+@use 'navmobile';
 
 .container {
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
+
+    @media (max-width:768px) {
+        width: 80%;
+    }
 }
 
 
