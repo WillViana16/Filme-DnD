@@ -6,8 +6,11 @@
     p,
     a {
     font-size: 1em;
-    text-decoration: none;
     text-align: center;
+    }
+
+    a {
+        color:blanchedalmond;
     }
 
     @media (max-width:768px){

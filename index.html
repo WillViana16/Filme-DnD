@@ -52,11 +52,16 @@
     
         <section id="casting">
             <nav class="casting__tab">
-                <button class="casting__tab__button casting__tab__button--is-active">Elenco</button>
-                <button class="casting__tab__button">Direção</button>
+                <button data-tab-button="elenco" class="casting__tab__button casting__tab__button--is-active">
+                    Elenco
+                </button>
+                <button data-tab-button="direção" class="casting__tab__button">
+                    Direção
+                </button>
             </nav>
-            <div class="casting container">
-                <ul class="casting__list casting__list--is-active">
+
+            
+                <ul data-tab-id="elenco" class="casting__list casting__list--is-active">
                     <li class="casting__list__items">
                         <img src="./images/Chris.webp" alt="Chris Pine">
                         <h3>Chris Pine</h3>
@@ -91,7 +96,7 @@
                     </li>
                 </ul>
 
-                <ul class="casting__list">
+                <ul data-tab-id="direção" class="casting__list casting__list">
                     <li class="casting__list__items">
                         <img src="./images/JohnFrancisDaley.webp" alt="John Francis Daley">
                         <h3>John Francis Dale</h3>
@@ -100,7 +105,7 @@
                         <img src="./images/Jonathan-Goldstein.jpg" alt="Jonathan Goldstein">
                         <h3>Jonathan Goldstein</h3>
                         </li>
-            </div>
+            
             
         </section>
 
@@ -134,10 +139,11 @@
                 <div class="footer__content container">
                     <p class="footer__content__text">
                         © 2024 Site desenvolvido por
-                        <a href="#">Willian G. Viana</a>
+                        <a href="https://github.com/WillViana16">Willian G. Viana</a>
                     </p>
                 </div>
             </footer>
     </div>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>
