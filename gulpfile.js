@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-const imagemin = require('gulp-imagemin');
 const uglify = require ('gulp-uglify');
 
 function scripts() {
@@ -16,11 +15,7 @@ function styles ( ) {
     .pipe(gulp.dest('./dist/css')) //define o destino do css compilado
 }
 
-function images ( ) {
-    return gulp.src('./images/*') //define o local dos arquivos
-    .pipe(imagemin())
-    .pipe(gulp.dest('./dist/images')) //define o destino das imagens minificadas
-}
+
 
 function watch () {
     gulp.watch('./src/styles/*.scss', styles);
@@ -29,4 +24,4 @@ function watch () {
 exports.styles = styles;
 exports.watch = watch;
 
-exports.default = gulp.parallel(styles, watch, images, scripts);
+exports.default = gulp.parallel(styles, watch, scripts);
