@@ -9,12 +9,13 @@
 
     &__text {
         text-align: center;
+        font-size: 1.25em;
         
         @media (max-width:768px) {
             font-size: .8em;
         }
 
-        @media (min-width:769px) and (max-width:1023px) {
+        @media (min-width:768px) and (max-width:1023px) {
             font-size: 1em;
         }
 

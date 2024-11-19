@@ -1,10 +1,14 @@
 @use 'variaveis';
 
-.footer__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer {
+    padding: 8px;
+
+    p,
+    a {
     font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+    }
 
     @media (max-width:768px){
         font-size: 0.7em;

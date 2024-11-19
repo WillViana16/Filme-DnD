@@ -1,4 +1,4 @@
-.casting-actor {
+.casting {
     padding: 8px;
     margin-top: 20px;
 
@@ -25,6 +25,10 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 24px;
+
+        &--is-active {
+            display: grid;
+        }
 
         @media (max-width:768px) {
             grid-template-columns: repeat(2, 1fr);
@@ -54,4 +58,29 @@
             }
         }
 }
+}
+
+.casting__tab {
+    display: flex;
+    justify-content: center;
+
+    &__button {
+        font-weight: bold;
+        font-size: 2.5em;
+        border: none;
+        padding-bottom: 5px;
+        background: none;
+        margin: 0 16px;
+        cursor: pointer;
+        border-bottom: 5px solid transparent;
+
+        @media (max-width:768px) {
+            font-size: 2em;
+        }
+
+        &--is-active {
+            display: grid;
+        }
+
+    }
 }

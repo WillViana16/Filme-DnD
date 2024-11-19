@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <div class="header__img">
+            <div class="header__img container">
                 <img class="header__img" src="./images/dndfundopreto.avif" alt="Dungeons&Dragons">
             </div>
             <div>
@@ -26,29 +26,11 @@
                         </li>
                     </ul>
                 </nav>
-                <nav class="header__mobile">
-                    <h1>
-                        <img class="header__img header__mobile__logo" src="./images/dndfundopreto.avif" alt="Dungeons&Dragons">
-                    </h1>
-                    <ul class="header__mobile__links">
-                        <li class="header__mobile__links__items">
-                            <a class="header__mobile__links__items__button" href="#">Assista agora</a>
-                        </li>
-                        <li class="header__mobile__links__items">
-                            <a class="header__mobile__links__items__button" href="https://youtu.be/4ej5yjOqBMI?si=cJ7F47RywGJyCMkd" target="_blank">Trailer</a>
-                        </li>
-                    </ul>
-                    <div class="header__mobile__toggle">
-                        <span class="header__mobile__toggle__bar"></span>
-                        <span class="header__mobile__toggle__bar"></span>
-                        <span class="header__mobile__toggle__bar"></span>
-                    </div>
-                </nav>
             </div>
         </header>
         
         <Section class="hero"> 
-            <div class="hero_container">
+            <div class="hero_container container">
                 <div>
                     <img class="hero_img" src="./images/dndhero.jpg" alt="Dungeons & Dragons-Honra entre ladrões">
                     
@@ -57,71 +39,73 @@
         </Section>
     
         <section class="sinopse">
-            <h1 class="sinopse__title">
-                Sinopse
-            </h1>
-            <p class="sinopse__text">
-                Em Dungeons & Dragons: Honra Entre Rebeldes, em um mundo repleto de dragões, elfos, anões, orcs e outras criaturas fantásticas, sobreviver é sempre um grande desafio. O bardo Edgin (Chris Pine), embarca em uma missão para resgatar uma relíquia mágica, capaz de ressuscitar sua esposa e recuperar a confiança de sua filha Kira (Chloe Coleman). O homem se une a um improvável bando de aventureiros, e juntos eles se arriscam entre os lugares mais perigosos e misteriosos desse universo, dispostos a combater o mal e a derrotar as mais terríveis criaturas que surgem em seus caminhos. Mas as coisas podem sair perigosamente erradas. Entre os desafios, eles precisarão enfrentar o exército de Forge (Hugh Grant), a feiticeira Sofina (Daisy Head), além de Holga (Michelle Rodriguez), Doric (Sophia Lillis), Xenk (Regé-Jean Page) e o mago Simon (Justice Smith). Baseado no jogo Dungeons & Dragons, um Role Playing Game (RPG) criado na década de 70.
-            </p>
-        </section>
+            <div class="container">
+                <h1 class="sinopse__title">
+                    Sinopse
+                </h1>
+                <p class="sinopse__text">
+                    Em Dungeons & Dragons: Honra Entre Rebeldes, em um mundo repleto de dragões, elfos, anões, orcs e outras criaturas fantásticas, sobreviver é sempre um grande desafio. O bardo Edgin (Chris Pine), embarca em uma missão para resgatar uma relíquia mágica, capaz de ressuscitar sua esposa e recuperar a confiança de sua filha Kira (Chloe Coleman). O homem se une a um improvável bando de aventureiros, e juntos eles se arriscam entre os lugares mais perigosos e misteriosos desse universo, dispostos a combater o mal e a derrotar as mais terríveis criaturas que surgem em seus caminhos. Mas as coisas podem sair perigosamente erradas. Entre os desafios, eles precisarão enfrentar o exército de Forge (Hugh Grant), a feiticeira Sofina (Daisy Head), além de Holga (Michelle Rodriguez), Doric (Sophia Lillis), Xenk (Regé-Jean Page) e o mago Simon (Justice Smith). Baseado no jogo Dungeons & Dragons, um Role Playing Game (RPG) criado na década de 70.
+                </p>
+            </section>
+            </div>
+            
     
-        <section id="casting-actor">
-            <div class="casting-actor">
-                <h1 class="casting-actor__title"> Elenco </h1>
-                <ul class="casting-actor__list">
-                    <li class="casting-actor__list__items">
+        <section id="casting">
+            <nav class="casting__tab">
+                <button class="casting__tab__button casting__tab__button--is-active">Elenco</button>
+                <button class="casting__tab__button">Direção</button>
+            </nav>
+            <div class="casting container">
+                <ul class="casting__list casting__list--is-active">
+                    <li class="casting__list__items">
                         <img src="./images/Chris.webp" alt="Chris Pine">
                         <h3>Chris Pine</h3>
                     </li>
-                    <li class="casting-actor__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Michelle.webp" alt="Michelle Rodriguez">
                         <h3>Michelle Rodriguez</h3>
                     </li>
-                    <li class="casting-actor__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Daisy.webp" alt="Daisy Head">
                         <h3>Daisy Head</h3>
                     </li>
-                    <li class="casting-actor__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Chloe.jpg" alt="Chloe Coleman">
                         <h3>Chloe Coleman</h3>
                     </li>
-                    <li class="casting-actor__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Hugh.webp" alt="Hugh Grant">
                         <h3>Hugh Grant</h3>
                     </li>
-                    <li class="casting-actor__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Justice.webp" alt="Justice Smith">
                         <h3>Justice Smith</h3>
                     </li>
-                    <li class="casting-actor__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Rege_Jean.webp" alt="Regé-Jean Page">
                         <h3>Regé-Jean Page</h3>
                     </li>
-                    <li class="casting-actor__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Sophia.jpg" alt="Sophia Lillis">
                         <h3>Sophia Lillis</h3>
                     </li>
                 </ul>
-            </div>
-        </section>
 
-        <section id="direction">
-            <div class="gd-direction">
-                <h1 class="gd-direction__title"> Direção </h1>
-                <ul class="gd-direction__list">
-                    <li class="gd-direction__list__items">
+                <ul class="casting__list">
+                    <li class="casting__list__items">
                         <img src="./images/JohnFrancisDaley.webp" alt="John Francis Daley">
                         <h3>John Francis Dale</h3>
                     </li>
-                    <li class="gd-direction__list__items">
+                    <li class="casting__list__items">
                         <img src="./images/Jonathan-Goldstein.jpg" alt="Jonathan Goldstein">
                         <h3>Jonathan Goldstein</h3>
-                    </li>
-                </div>
+                        </li>
+            </div>
+            
         </section>
 
         <section id="images">
-            <div class="gd-images">
+            <div class="gd-images container">
                 <h1 class="gd-images__title"> Imagens do filme </h1>
                 <ul class="gd-images__list">
                     <li class="gd-images__list__items">
@@ -143,16 +127,17 @@
                         <img src="./images/dndcena6.webp" alt="Justice Smith">
                     </li>
     
-                    <footer class="footer__content">
-                        <h4 class="footer__content__text">
-                            © 2024 Site desenvolvido por 
-                            <span class="footer__content__link">
-                                <a class="footer__content__link__item" href="#">Willian G. Viana</a>
-                            </span>
-                            
-                        </h4>
-                    </footer>
+                    
             </div>
-    
+            </section>
+            <footer class="footer">
+                <div class="footer__content container">
+                    <p class="footer__content__text">
+                        © 2024 Site desenvolvido por
+                        <a href="#">Willian G. Viana</a>
+                    </p>
+                </div>
+            </footer>
+    </div>
 </body>
 </html>

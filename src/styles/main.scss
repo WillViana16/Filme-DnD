@@ -3,11 +3,9 @@
 @use 'hero';
 @use 'header';
 @use 'sinopse';
-@use 'castingactor';
-@use 'direction';
+@use 'casting';
 @use 'images';
 @use 'footer';
-@use 'navmobile';
 
 .container {
     max-width: 1240px;
